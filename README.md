@@ -86,3 +86,8 @@ Star the repo if you find it useful!
 **Made for operations leaders, project management offices, and organizations choosing enterprise work management platforms that match their portfolio needs and data-sovereignty requirements.**
 Let's make enterprise work management more open, structured, and self-hostable.
 >>>>>>> 0389d7335aaeeee7611152f566e15ad49c06ae6d
+Copy-Item README.md README.md.bak -Force
+# Manual step: replace SaaS and Open-Source sections with content above
+git add README.md
+git commit -m "docs: add enterprise LMS pricing (Adobe per-user formula, TalentLMS transparent tiers, Vendr benchmarks) and open-source Moodle/Open edX"
+git push
