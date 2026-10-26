@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#060913" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="45%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <radialGradient id="meshGlow1" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="meshGlow2" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.55" />
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      /* Dynamic animations */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.06); }
+      }
+
+      @keyframes dataFlow {
+        from { stroke-dashoffset: 80; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      @keyframes dataFlowReverse {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 80; }
+      }
+
+      @keyframes beaconPing {
+        0% { r: 6px; opacity: 0.9; }
+        70% { r: 20px; opacity: 0; }
+        100% { r: 20px; opacity: 0; }
+      }
+
+      @keyframes floatSoft {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+
+      .pulse-ring-1 {
+        transform-origin: 150px 105px;
+        animation: beaconPing 3.2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+
+      .pulse-ring-2 {
+        transform-origin: 1050px 105px;
+        animation: beaconPing 3.2s cubic-bezier(0, 0.2, 0.8, 1) infinite 1.4s;
+      }
+
+      .pulse-ring-3 {
+        transform-origin: 170px 315px;
+        animation: beaconPing 3.2s cubic-bezier(0, 0.2, 0.8, 1) infinite 0.7s;
+      }
+
+      .pulse-ring-4 {
+        transform-origin: 1030px 315px;
+        animation: beaconPing 3.2s cubic-bezier(0, 0.2, 0.8, 1) infinite 2.1s;
+      }
+
+      .flow-line-1 {
+        stroke-dasharray: 6 8;
+        animation: dataFlow 2.5s linear infinite;
+      }
+
+      .flow-line-2 {
+        stroke-dasharray: 6 8;
+        animation: dataFlowReverse 3s linear infinite;
+      }
+
+      .floating-tag {
+        animation: floatSoft 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="420" fill="url(#grid)" rx="16" />
+  <rect width="1200" height="420" fill="url(#meshGlow1)" rx="16" />
+  <rect width="1200" height="420" fill="url(#meshGlow2)" rx="16" />
+
+  <!-- Outer Border -->
+  <rect x="2" y="2" width="1196" height="416" fill="none" stroke="#334155" stroke-width="1.5" rx="14" stroke-opacity="0.8" />
+
+  <!-- DYNAMIC KNOWLEDGE GRAPH & LEARNING PATH MESH LAYER -->
+  <g id="learning-mesh" opacity="0.85">
+    <!-- Static Connecting Lines -->
+    <path d="M 150 105 L 280 145 L 400 85 L 800 85 L 920 145 L 1050 105" fill="none" stroke="#1e293b" stroke-width="2" />
+    <path d="M 150 105 L 170 315 L 310 275 L 890 275 L 1030 315 L 1050 105" fill="none" stroke="#1e293b" stroke-width="2" />
+    <path d="M 280 145 L 310 275" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <path d="M 920 145 L 890 275" fill="none" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Animated Learning Flow Paths -->
+    <path d="M 150 105 L 280 145 L 400 85" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8" class="flow-line-1" filter="url(#glow)" />
+    <path d="M 800 85 L 920 145 L 1050 105" fill="none" stroke="#a855f7" stroke-width="2" stroke-opacity="0.8" class="flow-line-2" filter="url(#glow)" />
+    <path d="M 150 105 L 170 315 L 310 275" fill="none" stroke="#06b6d4" stroke-width="2" stroke-opacity="0.8" class="flow-line-2" />
+    <path d="M 890 275 L 1030 315 L 1050 105" fill="none" stroke="#818cf8" stroke-width="2" stroke-opacity="0.8" class="flow-line-1" />
+    <path d="M 280 145 L 310 275" fill="none" stroke="#10b981" stroke-width="2" stroke-opacity="0.75" class="flow-line-1" />
+    <path d="M 920 145 L 890 275" fill="none" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.75" class="flow-line-2" />
+
+    <!-- Left Topology Nodes -->
+    <circle cx="150" cy="105" r="18" fill="#0284c7" fill-opacity="0.22" class="pulse-ring-1" />
+    <circle cx="150" cy="105" r="7" fill="#38bdf8" filter="url(#glow)" />
+    <circle cx="150" cy="105" r="3" fill="#ffffff" />
+    <text x="150" y="82" fill="#94a3b8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" text-anchor="middle" font-weight="600">COURSE BUILDER</text>
+
+    <circle cx="280" cy="145" r="6" fill="#06b6d4" />
+    <circle cx="280" cy="145" r="2.5" fill="#ffffff" />
+    <text x="280" y="170" fill="#64748b" font-size="10" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" text-anchor="middle">SCORM / xAPI</text>
+
+    <circle cx="170" cy="315" r="18" fill="#10b981" fill-opacity="0.22" class="pulse-ring-3" />
+    <circle cx="170" cy="315" r="7" fill="#10b981" filter="url(#glow)" />
+    <circle cx="170" cy="315" r="3" fill="#ffffff" />
+    <text x="170" y="343" fill="#94a3b8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" text-anchor="middle" font-weight="600">LEARNER PORTAL</text>
+
+    <circle cx="310" cy="275" r="5" fill="#38bdf8" />
+
+    <!-- Right Topology Nodes -->
+    <circle cx="1050" cy="105" r="18" fill="#818cf8" fill-opacity="0.22" class="pulse-ring-2" />
+    <circle cx="1050" cy="105" r="7" fill="#818cf8" filter="url(#glow)" />
+    <circle cx="1050" cy="105" r="3" fill="#ffffff" />
+    <text x="1050" y="82" fill="#94a3b8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" text-anchor="middle" font-weight="600">AI TUTOR / BOT</text>
+
+    <circle cx="920" cy="145" r="6" fill="#a855f7" />
+    <circle cx="920" cy="145" r="2.5" fill="#ffffff" />
+    <text x="920" y="170" fill="#64748b" font-size="10" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" text-anchor="middle">LTI Integration</text>
+
+    <circle cx="1030" cy="315" r="18" fill="#c084fc" fill-opacity="0.22" class="pulse-ring-4" />
+    <circle cx="1030" cy="315" r="7" fill="#c084fc" filter="url(#glow)" />
+    <circle cx="1030" cy="315" r="3" fill="#ffffff" />
+    <text x="1030" y="343" fill="#94a3b8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" text-anchor="middle" font-weight="600">COMPLIANCE &amp; CERTS</text>
+
+    <circle cx="890" cy="275" r="5" fill="#818cf8" />
+  </g>
+
+  <!-- CENTER FOREGROUND HERO CARD (Ensures Title & Subtitle Stay Crisp & Unobstructed) -->
+  <g id="hero-content">
+    <!-- Backdrop Card to prevent background interference -->
+    <rect x="220" y="70" width="760" height="280" rx="18" fill="#0b1329" fill-opacity="0.92" stroke="#1e293b" stroke-width="1.5" />
+    <rect x="220" y="70" width="760" height="280" rx="18" fill="url(#titleGrad)" fill-opacity="0.03" />
+
+    <!-- Top Badge / Category Pill -->
+    <g transform="translate(460, 93)" class="floating-tag">
+      <rect x="0" y="0" width="280" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.55" />
+      <circle cx="14" cy="14" r="4" fill="#10b981" />
+      <text x="28" y="18" fill="#38bdf8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="700" letter-spacing="1.2">CURATED ECOSYSTEM 2026</text>
+    </g>
+
+    <!-- Main Title (Crisp, High Contrast Gradient) -->
+    <text x="600" y="168" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" font-weight="900" font-size="36" fill="url(#titleGrad)" letter-spacing="-0.5">
+      Awesome Enterprise LMS
+    </text>
+
+    <!-- Subtitle (Clear, readable foreground) -->
+    <text x="600" y="206" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" font-weight="500" font-size="15.5" fill="#cbd5e1" letter-spacing="0.2">
+      Learning Management Systems, Corporate Training &amp; Open Education
+    </text>
+
+    <text x="600" y="230" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" font-weight="400" font-size="13" fill="#94a3b8">
+      A comprehensive production guide for L&amp;D Leaders, HR Tech, Universities &amp; Engineers
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(255, 270)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="160" height="32" rx="16" fill="#131c31" stroke="#334155" stroke-width="1" />
+      <text x="80" y="20" text-anchor="middle" fill="#38bdf8" font-size="11.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="600">🏢 Corporate Training</text>
+
+      <!-- Pill 2 -->
+      <rect x="175" y="0" width="160" height="32" rx="16" fill="#131c31" stroke="#334155" stroke-width="1" />
+      <text x="255" y="20" text-anchor="middle" fill="#818cf8" font-size="11.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="600">🎓 Higher Ed &amp; MOOCs</text>
+
+      <!-- Pill 3 -->
+      <rect x="350" y="0" width="160" height="32" rx="16" fill="#131c31" stroke="#334155" stroke-width="1" />
+      <text x="430" y="20" text-anchor="middle" fill="#c084fc" font-size="11.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="600">📊 SCORM / xAPI / LTI</text>
+
+      <!-- Pill 4 -->
+      <rect x="525" y="0" width="165" height="32" rx="16" fill="#131c31" stroke="#334155" stroke-width="1" />
+      <text x="607" y="20" text-anchor="middle" fill="#34d399" font-size="11.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="600">🔓 Open-Source &amp; Sovereign</text>
+    </g>
+  </g>
+</svg>
