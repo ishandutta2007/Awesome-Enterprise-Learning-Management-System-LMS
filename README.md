@@ -217,3 +217,126 @@ If you find this curated Enterprise LMS ecosystem directory valuable for your or
 </p>
 # Awesome-Enterprise-Learning-Management-System-LMS
 
+# Top Enterprise Learning Management System (LMS) Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Corporate Training, Academic Learning & Open-Source Education Platforms*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Learning Management Systems (LMS)**. These tools manage, deliver, and track online training, courses, assessments, compliance, and learner progress across organizations.
+
+**Examples** include Adobe Learning Manager, Docebo, Cornerstone OnDemand, Absorb LMS, SAP Litmos, TalentLMS, LearnUpon, 360Learning, Blackboard Learn, and Canvas LMS (the category leaders).
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom integrations, and open education infrastructure — ideal for universities, enterprises, training providers, and developers building transparent, sovereign learning platforms.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Adobe Learning Manager](https://learningmanager.adobe.com/)**  
+  Enterprise LMS from Adobe with AI-powered recommendations, gamification, and integrations with Adobe ecosystem.
+
+- **[Docebo](https://www.docebo.com/)**  
+  AI-powered learning platform for employee, customer, and partner training with extended enterprise portals.
+
+- **[Cornerstone OnDemand](https://www.cornerstoneondemand.com/)**  
+  Comprehensive talent and learning suite with skills tracking, compliance, and performance management; rated as a Leader in the ISG Buyers Guide 2026 .
+
+- **[Absorb LMS](https://www.absorblms.com/)**  
+  Intuitive LMS with strong reporting, e-commerce, and content integrations for corporate training; rated Exemplary in the ISG Buyers Guide 2026 .
+
+- **[SAP Litmos](https://www.litmos.com/)**  
+  Rapid-deployment LMS with built-in content library, compliance courses, and mobile learning.
+
+- **[TalentLMS](https://www.talentlms.com/)**  
+  Cloud LMS known for ease of use, unlimited courses on most plans, and quick setup for small to mid-sized teams .
+
+- **[LearnUpon](https://www.learnupon.com/)**  
+  LMS focused on customer, partner, and employee training with multi-portal support and strong automation; rated Exemplary in the ISG Buyers Guide 2026 .
+
+- **[360Learning](https://360learning.com/)**  
+  Collaborative learning platform emphasizing user-generated content and peer-driven learning; rated Innovative in the ISG Buyers Guide 2026 .
+
+- **[Blackboard Learn](https://www.blackboard.com/)**  
+  Established academic LMS widely used in higher education with assessment, collaboration, and analytics tools.
+
+- **[Canvas LMS](https://www.instructure.com/canvas)**  
+  Modern academic LMS with an open-source core, popular in higher education for its clean interface and workflow; also increasingly adopted for corporate training .
+
+## Open-Source GitHub Projects
+
+- **[Moodle](https://github.com/moodle/moodle)**  
+  The world's most widely deployed open-source LMS (GPL-3.0), with 2,000+ plugins, SCORM/LTI compliance, and active development; 7.5k+ GitHub stars and rated as a "Merit" provider in the ISG Buyers Guide 2026 .
+
+- **[Open edX](https://github.com/openedx/openedx-platform)**  
+  MOOC-scale platform powering edX.org, built by MIT and Harvard; excels at video-based courses and auto-graded coding exercises; AGPL-3.0 licensed with 8.2k+ GitHub stars .
+
+- **[Canvas LMS (Open Source Core)](https://github.com/instructure/canvas-lms)**  
+  The open-source core of Canvas (AGPL-3.0), offering a modern interface and robust academic features for institutions willing to self-host; 6.9k+ GitHub stars .
+
+- **[Frappe Learning](https://github.com/frappe/lms)**  
+  Easy-to-use, 100% open-source LMS (AGPL-3.0) built on the Frappe framework; 3.3k+ GitHub stars and growing rapidly .
+
+- **[Chamilo](https://github.com/chamilo/chamilo-lms)**  
+  Lightweight LMS (GPL-3.0) focused on ease of use and accessibility, with built-in learning paths and video conferencing integration; 1k+ GitHub stars .
+
+- **[Sakai](https://github.com/sakaiproject/sakai)**  
+  Community-developed learning and collaboration suite (ECL-2.0) widely used in higher education and research institutions; 1.2k+ GitHub stars .
+
+- **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)**  
+  Feature-rich German-engineered LMS (GPL-3.0) with strong assessment, competency tracking, and compliance training capabilities .
+
+- **[ClassroomIO](https://github.com/classroomio/classroomio)**  
+  Open-source LMS (AGPL-3.0) for modern training, designed for SaaS companies and training providers; 1.7k+ GitHub stars .
+
+- **[LearnHouse](https://github.com/learnhouse/learnhouse)**  
+  Next-gen open-source learning platform with block-based courses, AI features, code execution, and collaborative whiteboards; 2.1k+ GitHub stars .
+
+- **[CourseLit](https://github.com/codelitdev/courselit)**  
+  Self-hosted platform to create, sell, and publish courses and digital downloads on your own branded site; open alternative to Teachable/Thinkific; 1.2k+ GitHub stars .
+
+- **[Kolibri](https://github.com/learningequality/kolibri)**  
+  Offline-first learning platform (MIT) designed for low-bandwidth and low-resource environments .
+
+- **[Gibbon](https://github.com/GibbonEdu/core)**  
+  Flexible open-source school management platform (GPL-3.0) designed for teachers, students, parents, and school leaders .
+
+- **[Pupilfirst](https://github.com/pupilfirst/pupilfirst)**  
+  LMS for running asynchronous online schools with a focus on tasks, feedback, and community interaction; 974+ GitHub stars .
+
+### Additional Strong Open-Source Options
+
+- **MeEdu** — Open-source solution for online schools, knowledge monetization, and online learning (TypeScript, 3.8k+ stars) .
+- **EduSoho** — Open-source online classroom system with full feature set for building online schools (PHP, 1.8k+ stars) .
+- **Open edX Docker** — Best-practice Docker image for deploying Open edX .
+- **Richie** — Open-source CMS for building education portals that aggregate courses from multiple LMS instances (Python, 316 stars) .
+- **LearnPress / LifterLMS** — WordPress LMS plugins for creating and selling courses within an existing WordPress site .
+
+**Frameworks for building custom systems**: Combine **Moodle** or **Open edX** with **Richie** for course portals, **Frappe Learning** for a modern lightweight stack, and **Docker Compose** for reproducible self-hosted deployments.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- LMS platforms handling personal data must comply with applicable regulations (GDPR, FERPA, etc.).
+- Self-hosted open-source solutions require proper security hardening and maintenance planning.
+- Verify license terms for commercial use; Moodle uses GPL-3.0, Open edX and Canvas use AGPL-3.0, and Sakai uses ECL-2.0 .
+
+---
+
+**Made for enterprises, universities, training providers, and learning technologists.**  
+Let's make enterprise learning management more open, data-driven, and accessible.
