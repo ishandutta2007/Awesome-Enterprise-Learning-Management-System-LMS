@@ -212,7 +212,7 @@ Contributions, platform additions, and documentation enhancements are enthusiast
    ```bash
    git checkout -b feat/add-lms-platform
    ```
-3. 📝 **Commit your modifications** ensuring objective, factual descriptions, standard link anchors, and Stars Badges.
+3. 📝 **Commit your modifications** ensuring objective, factual descriptions, standard link anchors, and Stars_Badges.
 4. 🚀 **Push the branch** and **open a Pull Request** with a concise explanation of your changes.
 
 ---
