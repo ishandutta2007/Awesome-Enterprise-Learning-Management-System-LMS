@@ -1,7 +1,6 @@
 # Awesome-Enterprise-Learning-Management-System-LMS
 
-<<<<<<< HEAD
-### Top Enterprise Work Management Platform Ecosystem
+## Top Enterprise Work Management Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Self-Hosted Portfolio Planning, Goal Tracking & Data-Sovereign Team Coordination*  
@@ -86,11 +85,3 @@ Star the repo if you find it useful!
 Let's make enterprise work management more open, structured, and self-hostable.
 # Awesome-Enterprise-Learning-Management-System-LMS
 
-=======
->>>>>>> d517964abe44f49445fe4f6e46c42b3c3d645423
-$repo_name = 'Awesome-Enterprise-Learning-Management-System-LMS'
-$repo_desc = 'Top Enterprise Learning Management System LMS (Opensource) 🌟 Star if you like it! 🌟'
-
-I want to create a similar GitHub's readme.md(i.e. strictly in markdown file format) for Top Enterprise Learning Management System (LMS) like Adobe Learning Manager, Docebo, Cornerstone OnDemand, Absorb LMS, SAP Litmos, TalentLMS, LearnUpon, 360Learning, Blackboard Learn, Canvas LMS and their equivalent open-source softwares. The format should be exactly same as you did this last time. Open-source softwares is what I'm primarily emphasizing on, so try to include as many open-sources as possible. But keep the 'SaaS/Hosted Platforms' section and 'Open-Source' Section separate. Remember, it must be in markdown format and response in markdown view as well, with a copy button on top right to copy the entire markdown.
-You must give the entire response in English language
-You must give the entire response in English language
