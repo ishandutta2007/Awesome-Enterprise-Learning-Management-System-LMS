@@ -10,7 +10,7 @@
 
   <p align="center">
     <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-    <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS?style=flat-square&logo=github&color=38bdf8" alt="GitHub Stars" /></a>
+    <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS?style=flat-square&logo=github&color=38bdf8" alt="GitHub_Stars" /></a>
     <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS?style=flat-square&logo=github&color=818cf8" alt="GitHub Forks" /></a>
     <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS?style=flat-square&color=c084fc" alt="License" /></a>
     <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Management-System-LMS/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -74,79 +74,79 @@ The sector demonstrates **moderate fragmentation with diversified specialization
 
 A comprehensive directory of open-source Learning Management Systems, headless learning backends, and xAPI data infrastructure, sorted in descending order of GitHub community stars.
 
-- **[Open edX](https://github.com/openedx/openedx-platform)** [![GitHub stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers)  
+- **[Open edX](https://github.com/openedx/openedx-platform)** [![GitHub_Stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers)  
   *Massive open online course (MOOC) platform originally engineered by MIT and Harvard.* Powers edX.org, national education initiatives, and large enterprise universities. Features scalable Django/Python architecture, XBlock modularity, studio authoring, auto-graded coding problem sets, and discussion forums.
 
-- **[Moodle](https://github.com/moodle/moodle)** [![GitHub stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers)  
+- **[Moodle](https://github.com/moodle/moodle)** [![GitHub_Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers)  
   *The world's most widely deployed open-source learning management system.* Powers hundreds of thousands of institutions across 240+ countries. Backed by 2,000+ community plugins, complete SCORM 1.2/2004, LTI 1.3 Advantage compliance, customizable gradebooks, competency frameworks, and mobile app sync.
 
-- **[Canvas LMS (Open-Source Core)](https://github.com/instructure/canvas-lms)** [![GitHub stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers)  
+- **[Canvas LMS (Open-Source Core)](https://github.com/instructure/canvas-lms)** [![GitHub_Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers)  
   *The self-hostable open-source Ruby on Rails core of Instructure Canvas.* Offers modern educator and student user interfaces, SpeedGrader assessment workflows, discussion boards, comprehensive REST APIs, and deep LTI standard tool support.
 
-- **[Frappe LMS](https://github.com/frappe/lms)** [![GitHub stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers)  
+- **[Frappe LMS](https://github.com/frappe/lms)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers)  
   *Modern, 100% open-source learning management system built on Python, Frappe Framework, and Vue 3.* Delivers clean course authoring, video lessons, batch management, quizzes, student forums, certification generation, and seamless integration with ERPNext.
 
-- **[Learnhouse](https://github.com/learnhouse/learnhouse)** [![GitHub stars](https://img.shields.io/github/stars/learnhouse/learnhouse?style=social&color=white)](https://github.com/learnhouse/learnhouse/stargazers)  
+- **[Learnhouse](https://github.com/learnhouse/learnhouse)** [![GitHub_Stars](https://img.shields.io/github/stars/learnhouse/learnhouse?style=social&color=white)](https://github.com/learnhouse/learnhouse/stargazers)  
   *Next-generation open-source learning platform for creators, communities, and companies.* Features a sleek modern architecture, markdown/rich-text lesson editing, video streaming, interactive exercises, and self-hosted Docker deployments.
 
-- **[ClassroomIO](https://github.com/classroomio/classroomio)** [![GitHub stars](https://img.shields.io/github/stars/classroomio/classroomio?style=social&color=white)](https://github.com/classroomio/classroomio/stargazers)  
+- **[ClassroomIO](https://github.com/classroomio/classroomio)** [![GitHub_Stars](https://img.shields.io/github/stars/classroomio/classroomio?style=social&color=white)](https://github.com/classroomio/classroomio/stargazers)  
   *Open-source customer education and developer training platform.* Helps SaaS businesses build interactive onboarding academies with code sandboxes, progress tracking, and custom domain branding.
 
-- **[Courselit](https://github.com/codelitdev/courselit)** [![GitHub stars](https://img.shields.io/github/stars/codelitdev/courselit?style=social&color=white)](https://github.com/codelitdev/courselit/stargazers)  
+- **[Courselit](https://github.com/codelitdev/courselit)** [![GitHub_Stars](https://img.shields.io/github/stars/codelitdev/courselit?style=social&color=white)](https://github.com/codelitdev/courselit/stargazers)  
   *Self-hosted open-source alternative to Teachable, Thinkific, and Podia.* Lets educators and organizations create and sell courses, digital downloads, and blogs with built-in payment gateway integrations (Stripe, PayPal).
 
-- **[Sakai](https://github.com/sakaiproject/sakai)** [![GitHub stars](https://img.shields.io/github/stars/sakaiproject/sakai?style=social&color=white)](https://github.com/sakaiproject/sakai/stargazers)  
+- **[Sakai](https://github.com/sakaiproject/sakai)** [![GitHub_Stars](https://img.shields.io/github/stars/sakaiproject/sakai?style=social&color=white)](https://github.com/sakaiproject/sakai/stargazers)  
   *Enterprise-grade academic learning collaboration suite built with Java.* Maintained by a global alliance of universities including Oxford, Duke, and Notre Dame. Excels in collaborative research, testing, grading rubrics, and high-concurrency campus deployments.
 
-- **[Kolibri](https://github.com/learningequality/kolibri)** [![GitHub stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers)  
+- **[Kolibri](https://github.com/learningequality/kolibri)** [![GitHub_Stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers)  
   *Offline-first learning platform optimized for low-bandwidth and disconnected environments.* Designed for schools, refugee camps, and remote facilities with local peer-to-peer sync, curriculum alignment, and rich offline content libraries.
 
-- **[Tutor (Open edX Distribution)](https://github.com/overhangio/tutor)** [![GitHub stars](https://img.shields.io/github/stars/overhangio/tutor?style=social&color=white)](https://github.com/overhangio/tutor/stargazers)  
+- **[Tutor (Open edX Distribution)](https://github.com/overhangio/tutor)** [![GitHub_Stars](https://img.shields.io/github/stars/overhangio/tutor?style=social&color=white)](https://github.com/overhangio/tutor/stargazers)  
   *The official Docker-based Open edX distribution and deployment orchestrator.* Drastically simplifies installing, configuring, upgrading, and maintaining production-grade Open edX clusters on bare metal or Kubernetes.
 
-- **[Chamilo LMS](https://github.com/chamilo/chamilo-lms)** [![GitHub stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers)  
+- **[Chamilo LMS](https://github.com/chamilo/chamilo-lms)** [![GitHub_Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers)  
   *High-efficiency PHP LMS dedicated to accessibility and ease of use.* Features structured learning path builders, virtual classroom integrations, skill tracking, certification management, and low server footprint.
 
-- **[Pupilfirst](https://github.com/pupilfirst/pupilfirst)** [![GitHub stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers)  
+- **[Pupilfirst](https://github.com/pupilfirst/pupilfirst)** [![GitHub_Stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers)  
   *Ruby on Rails LMS engineered for asynchronous project-based schools.* Centers on action-driven tasks, video reviews, student peer reviews, automated grading workflows, and community engagement.
 
-- **[Sensei LMS](https://github.com/Automattic/sensei)** [![GitHub stars](https://img.shields.io/github/stars/Automattic/sensei?style=social&color=white)](https://github.com/Automattic/sensei/stargazers)  
+- **[Sensei LMS](https://github.com/Automattic/sensei)** [![GitHub_Stars](https://img.shields.io/github/stars/Automattic/sensei?style=social&color=white)](https://github.com/Automattic/sensei/stargazers)  
   *Open-source WordPress LMS plugin developed by Automattic.* Seamlessly integrates with WooCommerce to monetize lessons, quiz builders, learner profiles, and interactive media directly inside WordPress websites.
 
-- **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)** [![GitHub stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers)  
+- **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)** [![GitHub_Stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers)  
   *German-engineered, enterprise-grade learning management platform.* Widely used by military, government agencies, and medical universities for its granular role-based permissions, advanced testing/exam engine, and strict data privacy compliance.
 
-- **[OpenOLAT](https://github.com/OpenOLAT/OpenOLAT)** [![GitHub stars](https://img.shields.io/github/stars/OpenOLAT/OpenOLAT?style=social&color=white)](https://github.com/OpenOLAT/OpenOLAT/stargazers)  
+- **[OpenOLAT](https://github.com/OpenOLAT/OpenOLAT)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenOLAT/OpenOLAT?style=social&color=white)](https://github.com/OpenOLAT/OpenOLAT/stargazers)  
   *Swiss-engineered Java LMS for higher education and corporate continuous training.* Features visual course building, coaching tools, collaborative wikis, forums, and comprehensive assessment security.
 
-- **[Claroline](https://github.com/claroline/Claroline)** [![GitHub stars](https://img.shields.io/github/stars/claroline/Claroline?style=social&color=white)](https://github.com/claroline/Claroline/stargazers)  
+- **[Claroline](https://github.com/claroline/Claroline)** [![GitHub_Stars](https://img.shields.io/github/stars/claroline/Claroline?style=social&color=white)](https://github.com/claroline/Claroline/stargazers)  
   *Collaborative learning experience platform built with PHP and Symfony.* Focuses on customizable workspaces, resource sharing, modular pedagogical activities, and institution-wide learner analytics.
 
-- **[Richie](https://github.com/openfun/richie)** [![GitHub stars](https://img.shields.io/github/stars/openfun/richie?style=social&color=white)](https://github.com/openfun/richie/stargazers)  
+- **[Richie](https://github.com/openfun/richie)** [![GitHub_Stars](https://img.shields.io/github/stars/openfun/richie?style=social&color=white)](https://github.com/openfun/richie/stargazers)  
   *Open-source education portal CMS created by France Université Numérique (FUN).* Aggregates courses, programs, and certifications from multiple LMS backends (Open edX, Moodle) into a unified, high-performance course catalog.
 
-- **[Leemons](https://github.com/leemonade/leemons)** [![GitHub stars](https://img.shields.io/github/stars/leemonade/leemons?style=social&color=white)](https://github.com/leemonade/leemons/stargazers)  
+- **[Leemons](https://github.com/leemonade/leemons)** [![GitHub_Stars](https://img.shields.io/github/stars/leemonade/leemons?style=social&color=white)](https://github.com/leemonade/leemons/stargazers)  
   *Modern open-source Learning Experience Platform (LXP) built completely in Node.js and JavaScript.* Provides micro-modular plugin architecture, customizable dashboard widgets, and tailored curriculum frameworks.
 
-- **[LearnPress](https://github.com/LearnPress/learnpress)** [![GitHub stars](https://img.shields.io/github/stars/LearnPress/learnpress?style=social&color=white)](https://github.com/LearnPress/learnpress/stargazers)  
+- **[LearnPress](https://github.com/LearnPress/learnpress)** [![GitHub_Stars](https://img.shields.io/github/stars/LearnPress/learnpress?style=social&color=white)](https://github.com/LearnPress/learnpress/stargazers)  
   *Comprehensive WordPress LMS plugin.* Provides curriculum management, quiz creation, progress tracking, and payment processing for instructors and independent training companies.
 
-- **[LifterLMS](https://github.com/gocodebox/lifterlms)** [![GitHub stars](https://img.shields.io/github/stars/gocodebox/lifterlms?style=social&color=white)](https://github.com/gocodebox/lifterlms/stargazers)  
+- **[LifterLMS](https://github.com/gocodebox/lifterlms)** [![GitHub_Stars](https://img.shields.io/github/stars/gocodebox/lifterlms?style=social&color=white)](https://github.com/gocodebox/lifterlms/stargazers)  
   *Open-source WordPress LMS solution for online courses and training.* Offers lesson progression, achievement gamification badges, automated emails, and private coaching zones.
 
-- **[Marsha](https://github.com/openfun/marsha)** [![GitHub stars](https://img.shields.io/github/stars/openfun/marsha?style=social&color=white)](https://github.com/openfun/marsha/stargazers)  
+- **[Marsha](https://github.com/openfun/marsha)** [![GitHub_Stars](https://img.shields.io/github/stars/openfun/marsha?style=social&color=white)](https://github.com/openfun/marsha/stargazers)  
   *Open-source LTI-compliant Learning Content Management System (LCMS).* Specializes in live and on-demand video streaming, timed transcripts, interactive webinars, and classroom recording delivery via LTI 1.3.
 
-- **[Ralph](https://github.com/openfun/ralph)** [![GitHub stars](https://img.shields.io/github/stars/openfun/ralph?style=social&color=white)](https://github.com/openfun/ralph/stargazers)  
+- **[Ralph](https://github.com/openfun/ralph)** [![GitHub_Stars](https://img.shields.io/github/stars/openfun/ralph?style=social&color=white)](https://github.com/openfun/ralph/stargazers)  
   *High-performance Learning Record Store (LRS) and analytics ingestion engine.* Collects, validates, and stores standardized xAPI learning events with Elasticsearch and ClickHouse data pipelines.
 
-- **[Forma LMS](https://github.com/formalms/formalms)** [![GitHub stars](https://img.shields.io/github/stars/formalms/formalms?style=social&color=white)](https://github.com/formalms/formalms/stargazers)  
+- **[Forma LMS](https://github.com/formalms/formalms)** [![GitHub_Stars](https://img.shields.io/github/stars/formalms/formalms?style=social&color=white)](https://github.com/formalms/formalms/stargazers)  
   *Corporate-oriented open-source LMS fork of Docebo Core.* Tailored specifically for business training, skill gap analysis, organizational chart mapping, and automated certification workflows.
 
-- **[Joanie](https://github.com/openfun/joanie)** [![GitHub stars](https://img.shields.io/github/stars/openfun/joanie?style=social&color=white)](https://github.com/openfun/joanie/stargazers)  
+- **[Joanie](https://github.com/openfun/joanie)** [![GitHub_Stars](https://img.shields.io/github/stars/openfun/joanie?style=social&color=white)](https://github.com/openfun/joanie/stargazers)  
   *Headless education ERP for managing course orders, subscriptions, payment billing, and official diploma delivery.* Integrates with Richie and Open edX.
 
-- **[Warren](https://github.com/openfun/warren)** [![GitHub stars](https://img.shields.io/github/stars/openfun/warren?style=social&color=white)](https://github.com/openfun/warren/stargazers)  
+- **[Warren](https://github.com/openfun/warren)** [![GitHub_Stars](https://img.shields.io/github/stars/openfun/warren?style=social&color=white)](https://github.com/openfun/warren/stargazers)  
   *Learning analytics visualization toolkit.* Reads xAPI telemetry from Ralph LRS to generate intuitive student engagement dashboards and course drop-off reports.
 
 ---
@@ -176,7 +176,7 @@ Contributions, platform additions, and documentation enhancements are enthusiast
    ```bash
    git checkout -b feat/add-lms-platform
    ```
-3. 📝 **Commit your modifications** ensuring objective, factual descriptions, standard link anchors, and star badges.
+3. 📝 **Commit your modifications** ensuring objective, factual descriptions, standard link anchors, and Stars_Badges.
 4. 🚀 **Push the branch** and **open a Pull Request** with a concise explanation of your changes.
 
 ---
