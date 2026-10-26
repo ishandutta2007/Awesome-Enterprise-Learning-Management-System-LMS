@@ -1,5 +1,6 @@
 # Awesome-Enterprise-Learning-Management-System-LMS
 
+<<<<<<< HEAD
 ## Top Enterprise Work Management Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
@@ -85,3 +86,5 @@ Star the repo if you find it useful!
 Let's make enterprise work management more open, structured, and self-hostable.
 # Awesome-Enterprise-Learning-Management-System-LMS
 
+=======
+>>>>>>> d517964abe44f49445fe4f6e46c42b3c3d645423
