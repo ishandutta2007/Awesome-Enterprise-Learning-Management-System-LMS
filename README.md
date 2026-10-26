@@ -35,6 +35,7 @@ Whether deploying a scalable SaaS platform for workforce governance or self-host
 - [☁️ SaaS & Hosted Enterprise LMS Platforms](#️-saas--hosted-enterprise-lms-platforms)
 - [🔓 Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
 - [📊 Architectural Comparison Matrix](#-architectural-comparison-matrix)
+- [🔍 Key Evaluation Criteria for Enterprise LMS](#-key-evaluation-criteria-for-enterprise-lms)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [📈 Star History](#-star-history)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -72,7 +73,10 @@ The sector demonstrates **moderate fragmentation with diversified specialization
 
 ## 🔓 Open-Source GitHub Projects (Ranked by Stars)
 
-A comprehensive directory of open-source Learning Management Systems, headless learning backends, and xAPI data infrastructure, sorted in descending order of GitHub community stars.
+A comprehensive directory of open-source Learning Management Systems, headless learning engines, lecture capture systems, and xAPI data infrastructure, sorted in descending order of GitHub community stars.
+
+- **[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)** [![GitHub_Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers)  
+  *Premier open-source virtual classroom and synchronous web conferencing platform designed specifically for online education.* Deeply integrates into Moodle, Canvas, and Sakai with real-time multi-user whiteboards, breakout rooms, synchronized polling, closed captioning, and presentation sharing.
 
 - **[Open edX](https://github.com/openedx/openedx-platform)** [![GitHub_Stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers)  
   *Massive open online course (MOOC) platform originally engineered by MIT and Harvard.* Powers edX.org, national education initiatives, and large enterprise universities. Features scalable Django/Python architecture, XBlock modularity, studio authoring, auto-graded coding problem sets, and discussion forums.
@@ -110,8 +114,23 @@ A comprehensive directory of open-source Learning Management Systems, headless l
 - **[Pupilfirst](https://github.com/pupilfirst/pupilfirst)** [![GitHub_Stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers)  
   *Ruby on Rails LMS engineered for asynchronous project-based schools.* Centers on action-driven tasks, video reviews, student peer reviews, automated grading workflows, and community engagement.
 
+- **[Django LMS](https://github.com/adilmohak/django-lms)** [![GitHub_Stars](https://img.shields.io/github/stars/adilmohak/django-lms?style=social&color=white)](https://github.com/adilmohak/django-lms/stargazers)  
+  *Clean and extensible learning management system built with Python and Django.* Provides course registration, grade and assessment tracking, online quizzing, lecture scheduling, and faculty/student role dashboards.
+
+- **[uLearn](https://github.com/safytech/ulearn)** [![GitHub_Stars](https://img.shields.io/github/stars/safytech/ulearn?style=social&color=white)](https://github.com/safytech/ulearn/stargazers)  
+  *Full-stack responsive LMS web application engineered in Laravel and React.* Supports on-demand video streaming courses, interactive lesson modules, multiple instructor profiles, and automated digital certificate generation.
+
+- **[Gibbon](https://github.com/GibbonEdu/core)** [![GitHub_Stars](https://img.shields.io/github/stars/GibbonEdu/core?style=social&color=white)](https://github.com/GibbonEdu/core/stargazers)  
+  *Flexible open-source school management system and LMS designed for educators.* Unifies student information records, attendance tracking, lesson planning, rubrics-based gradebooks, and homework submissions into a single self-hosted PHP core.
+
+- **[Adapt Framework](https://github.com/adaptlearning/adapt_framework)** [![GitHub_Stars](https://img.shields.io/github/stars/adaptlearning/adapt_framework?style=social&color=white)](https://github.com/adaptlearning/adapt_framework/stargazers)  
+  *Award-winning responsive HTML5 e-learning course authoring framework.* Produces deep SCORM 1.2/2004 and xAPI compliant single-page interactive learning experiences accessible across smartphones, tablets, and desktop browsers.
+
 - **[Sensei LMS](https://github.com/Automattic/sensei)** [![GitHub_Stars](https://img.shields.io/github/stars/Automattic/sensei?style=social&color=white)](https://github.com/Automattic/sensei/stargazers)  
   *Open-source WordPress LMS plugin developed by Automattic.* Seamlessly integrates with WooCommerce to monetize lessons, quiz builders, learner profiles, and interactive media directly inside WordPress websites.
+
+- **[Opencast](https://github.com/opencast/opencast)** [![GitHub_Stars](https://img.shields.io/github/stars/opencast/opencast?style=social&color=white)](https://github.com/opencast/opencast/stargazers)  
+  *Enterprise-grade open-source lecture capture and video management platform for universities.* Provides scheduled recording ingestion, automated processing, multi-stream playback, and tight integration with Moodle, Canvas, and Sakai.
 
 - **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)** [![GitHub_Stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers)  
   *German-engineered, enterprise-grade learning management platform.* Widely used by military, government agencies, and medical universities for its granular role-based permissions, advanced testing/exam engine, and strict data privacy compliance.
@@ -155,15 +174,32 @@ A comprehensive directory of open-source Learning Management Systems, headless l
 
 | Project | Primary Tech Stack | Database Engine | Interoperability Standards | Multitenancy | Deployment Model | Primary Sweet Spot |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **BigBlueButton** | Java / Scala / Node.js | Redis + PostgreSQL | LTI 1.1 / 1.3, WebRTC | ⚠️ Server Partitioning | Ubuntu Bare Metal / VM | Synchronous live classrooms, breakout rooms & webinars |
 | **Open edX** | Python / Django / React | MySQL + MongoDB | LTI 1.1 / 1.3, xAPI | ⚠️ Multi-Domain Plugin | Docker / Kubernetes (Tutor) | Global MOOCs & university-scale video academies |
 | **Moodle** | PHP / JavaScript | MySQL / PostgreSQL / MariaDB | SCORM 1.2/2004, LTI 1.3, xAPI | ⚠️ Via Totara/IOMAD | Bare Metal, VMs, Docker | General-purpose academic & enterprise learning |
 | **Canvas LMS** | Ruby on Rails / React | PostgreSQL | LTI 1.1 / 1.3 Advantage, QTI | ❌ Single Organization | Docker / AWS CloudFormation | Higher education institutions & K-12 school districts |
 | **Frappe LMS** | Python / Vue.js 3 | MariaDB | REST APIs, Webhooks | ✅ Native Frappe Multitenancy | Bench / Docker Compose | Fast, modern corporate academies & developer portals |
 | **Sakai** | Java / Spring Framework | MySQL / Oracle | LTI 1.3 Advantage, SCORM, IMS | ⚠️ Institutional Hierarchy | Apache Tomcat / Linux | Research universities & academic collaboration |
 | **Chamilo** | PHP / Twig | MySQL / MariaDB | SCORM 1.2, xAPI, LTI | ⚠️ Multiple Campus Extension | LAMP / Docker | Resource-light institutions & public administration |
+| **Gibbon** | PHP / MySQL | MySQL / MariaDB | Modular Hooks, CSV/REST | ❌ Single School Core | Apache / PHP 8+ | K-12 school administration & unified curriculum |
 | **ILIAS** | PHP / JavaScript | MySQL / PostgreSQL | SCORM 1.2/2004, LTI 1.3, QTI | ✅ Client Partitioning | Apache / Linux Server | High-security corporate, defense & medical training |
 | **Kolibri** | Python / Django | SQLite / PostgreSQL | Offline Content Packs | ❌ Local Appliance | Local Wi-Fi, Raspberry Pi, Android | Remote, offline & low-bandwidth rural schools |
 | **Ralph & Warren** | Python / FastAPI / ES | Elasticsearch / ClickHouse | xAPI (Tin Can API), cmi5 | ✅ API-Key Scoped | Microservices / Docker | Learning Record Store & institutional analytics |
+
+---
+
+## 🔍 Key Evaluation Criteria for Enterprise LMS
+
+When selecting an Enterprise Learning Management System, platform evaluators, procurement teams, and solution architects prioritize:
+
+1. **Interoperability & Data Standards**:
+   - **SCORM (1.2 / 2004 3rd & 4th Ed)**: Legacy packaging for e-learning content modules with status and score reporting.
+   - **xAPI (Tin Can API)**: Modern activity streams capturing mobile learning, simulations, offline tasks, and software tool interactions.
+   - **cmi5**: Modern successor reconciling SCORM governance rules with xAPI data payload flexibility.
+   - **LTI (Learning Tools Interoperability 1.3 Advantage)**: Seamless plug-and-play integration of third-party tools, code sandboxes, and virtual classrooms (e.g. BigBlueButton, Zoom, Teams).
+2. **Enterprise HRIS Integration**: Automated bidirectional employee sync with Workday, SAP SuccessFactors, ADP Workforce Now, and BambooHR via SCIM v2 and REST APIs.
+3. **Multi-Tenant Architecture**: Partitioning branded portals for subsidiary business units, external channel partners, customer academies, and contractor cohorts.
+4. **Automated Regulatory Compliance**: Expiration tracking, recurrent recertification workflows, audit trails, and electronic signature sign-offs (FDA 21 CFR Part 11, OSHA, HIPAA).
 
 ---
 
@@ -176,7 +212,7 @@ Contributions, platform additions, and documentation enhancements are enthusiast
    ```bash
    git checkout -b feat/add-lms-platform
    ```
-3. 📝 **Commit your modifications** ensuring objective, factual descriptions, standard link anchors, and Stars_Badges.
+3. 📝 **Commit your modifications** ensuring objective, factual descriptions, standard link anchors, and Stars Badges.
 4. 🚀 **Push the branch** and **open a Pull Request** with a concise explanation of your changes.
 
 ---
@@ -189,12 +225,14 @@ Contributions, platform additions, and documentation enhancements are enthusiast
 
 ## 💖 Support & Sponsorship
 
-If you find this curated Enterprise LMS ecosystem directory valuable for your organization, academic research, or technical evaluation, please consider supporting the project:
+Thank you for exploring and utilizing the **Awesome Enterprise Learning Management System** curated directory! Maintaining an up-to-date, comprehensive, and factual ecosystem guide takes substantial continuous effort and research.
 
-- ⭐ **Star this repository** on GitHub to amplify its reach!
-- 🍴 **Fork the repo** to keep your personal reference copy.
-- 📢 **Share with fellow educators**, L&D specialists, HR technologists, and engineering teams.
-- ☕ **Support continuous maintenance & research** by sponsoring via GitHub Sponsors:
+If this directory brings value to your engineering team, educational institution, or enterprise vendor selection, please consider showing your support:
+
+- ⭐ **Star this repository** to improve discoverability across GitHub.
+- 🍴 **Fork the repository** to keep an active reference for your team.
+- 📢 **Share with fellow educators**, HR technologists, and platform engineers.
+- ☕ **Buy me a coffee / sponsor on GitHub** to fund continuous research and upkeep:
 
 <p align="center">
   <a href="https://github.com/sponsors/ishandutta2007">
